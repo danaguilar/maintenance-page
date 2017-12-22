@@ -74,7 +74,7 @@ var start = function() {
 		}
 	},1000/FRAMERATE);
 
-	canvas.addEventListener("click",function(e){
+	canvas.addEventListener("mousemove",function(e){
 		e.preventDefault();
 		var xpos = e.clientX
 		var ypos = e.clientY
@@ -88,7 +88,6 @@ var start = function() {
 					increaseDifficulty();
 					nextLevelCount = 0
 				}
-				break;
 			}
 		}
 		updateScore();
