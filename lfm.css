@@ -1,0 +1,58 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #6495ED;
+}
+.game-container{
+	margin: 0 auto;
+}
+
+#message{
+	position: absolute;
+ 	margin: 0 auto;
+ 	z-index: 2;
+	background-color: #6495ED;
+}
+
+#score-container{
+	position: absolute;
+	margin: 0 auto;
+	z-index: 2;
+	background-color: #6495ED;
+	top: 0;
+	left: 0;
+}
+
+article {
+	display: block;
+	text-align: left;
+	width: 650px;
+	margin: 150px auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #1f66e5;
+}
+
+h1{
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+}
+
+#time{
+	float: left;
+}
+
+#score{
+	float: right;
+}
+
+canvas{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
